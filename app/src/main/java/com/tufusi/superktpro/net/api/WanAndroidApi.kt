@@ -1,18 +1,16 @@
-package com.tufusi.superktpro.net
+package com.tufusi.superktpro.net.api
 
 /**
- * File: ApiClient.java
+ * File: WanAndroidApi.java
  * Author: leocheung
  * Version: V100R001C01
- * Create: 2020/6/30 7:10 AM
+ * Create: 2020/6/30 1:14 PM
  * Description:
  *
  * Changes (from 2020/6/30)
  * -----------------------------------------------------------------
- * 2020/6/30 : Create ApiClient.java (leocheung);
+ * 2020/6/30 : Create WanAndroidApi.java (leocheung);
  * -----------------------------------------------------------------
  */
-
-class ApiClient private constructor(){
-
+class WanAndroidApi {
 }

@@ -1,18 +1,18 @@
-package com.tufusi.superktpro.net
+package com.tufusi.superktpro.base
 
 /**
- * File: ApiClient.java
+ * File: IBasePresenter.java
  * Author: leocheung
  * Version: V100R001C01
- * Create: 2020/6/30 7:10 AM
+ * Create: 2020/6/30 1:24 PM
  * Description:
  *
  * Changes (from 2020/6/30)
  * -----------------------------------------------------------------
- * 2020/6/30 : Create ApiClient.java (leocheung);
+ * 2020/6/30 : Create IBasePresenter.java (leocheung);
  * -----------------------------------------------------------------
  */
-
-class ApiClient private constructor(){
-
+interface IBasePresenter {
+    fun attachView();
+    fun detachView();
 }
