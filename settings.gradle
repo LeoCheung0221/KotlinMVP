@@ -1,3 +1,2 @@
-include ':common'
+rootProject.name='KotlinMVP'
 include ':app'
-rootProject.name = "XGSuperKtPro"

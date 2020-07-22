@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">XGSuperKtPro</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">玩Android</string>
+
+    <string name="title_home">首页</string>
+    <string name="title_collect">收藏</string>
+    <string name="title_personal">个人中心</string>
+
 </resources>

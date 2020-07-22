@@ -3,23 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_home"
+    tools:ignore="UnusedNavigation">
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.tufusi.superktpro.modules.main.home.HomeFragment"
+        android:name="com.tufusi.kotlinmvp.modules.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.tufusi.superktpro.modules.main.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_collect"
+        android:name="com.tufusi.kotlinmvp.modules.collect.CollectFragment"
+        android:label="@string/title_collect"
+        tools:layout="@layout/fragment_collect" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.tufusi.superktpro.modules.main.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_personal"
+        android:name="com.tufusi.kotlinmvp.modules.personal.PersonalFragment"
+        android:label="@string/title_personal"
+        tools:layout="@layout/fragment_personal" />
+
 </navigation>
